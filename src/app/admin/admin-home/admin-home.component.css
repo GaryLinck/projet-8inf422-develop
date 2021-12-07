@@ -1,0 +1,30 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+ul>li{
+    width:270px;
+    height: 270px;
+    display: inline-block;
+    background-color: #F3F3F3;
+    margin:10px;
+    text-align: center;
+    position: relative;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+ul>li:hover{
+    background-color: #cccccc;
+}
+ul>li>svg{
+    width: 155px;
+    height: 155px;
+    margin-top:40px;
+}
+ul>li>p{
+    font-family:"Source Sans Pro", sans-serif;
+    font-weight:bold;
+    margin-top:20px;
+}

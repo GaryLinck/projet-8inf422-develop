@@ -1,0 +1,31 @@
+#choix_reception{
+    width:100%;
+    height:90px;
+    background-color: #262626;
+    border:4px solid #535353;
+}
+#choix_reception>p{
+    display: inline-block;
+    width:50%;
+    height:100%;
+    text-align:center;
+    line-height: 90px;
+    color:#FFF;
+    font-family:"Source Sans Pro",sans-serif;
+    font-size:22px;
+    font-weight:bold;
+    user-select: none;
+    outline:none;
+    background:none;
+    border:none;
+}
+#choix_reception>p:hover{
+    cursor:pointer;
+    background-color: #000;
+
+}
+#choix_reception>p.active{
+    background-color: #0c0b0b;
+
+    
+}

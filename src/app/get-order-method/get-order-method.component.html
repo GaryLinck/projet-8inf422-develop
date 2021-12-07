@@ -1,0 +1,70 @@
+<div class="container" style="width:50%;">
+    <h1 class="main-title">Méthode de réception</h1>
+
+    <div id="choix_reception">
+        <p id="choix_ceuillette" class="active">
+            Cueillette
+        </p>
+        <p id="choix_livraison">
+            Livraison
+        </p>
+    </div>
+    <form action="" id="form_ceuillette">
+        <div class="field">
+            <label for="ceuillette_name">Prénom</label>
+            <input type="text" name="ceuillette_name" id="ceuillette_name">
+        </div>
+
+        <div class="field">
+            <label for="ceuillette_lastname">Nom</label>
+            <input type="text" name="ceuillette_lastname" id="ceuillette_lastname">
+        </div>
+
+        <div class="field">
+            <label for="ceuillette_telephone">Numéro de téléphone</label>
+            <input type="text" name="ceuillette_telephone" id="ceuillette_telephone">
+        </div>
+        <div class="field">
+            <input routerLink="/paiement" class="button button-black" type="submit" value="Passer au paiement">
+        </div>
+    </form>
+
+    <form action="" id="form_livraison" style="display:none;">
+        <div class="field">
+            <label for="livraison_name">Prénom</label>
+            <input type="text" name="livraison_name" id="livraison_name">
+        </div>
+
+        <div class="field">
+            <label for="livraison_lastname">Nom</label>
+            <input type="text" name="livraison_lastname" id="livraison_lastname">
+        </div>
+
+        <div class="field">
+            <label for="livraison_adresse">Adresse</label>
+            <input type="text" name="livraison_adresse" id="livraison_adresse">
+        </div>
+
+        <div class="field">
+            <label for="livraison_appnumber">Appartement, suite, etc (optionnel)</label>
+            <input type="text" name="livraison_appnumber" id="livraison_appnumber">
+        </div>
+
+        <div class="field">
+            <label for="livraison_city">Ville</label>
+            <input type="text" name="livraison_city" id="livraison_city">
+        </div>
+
+        <div class="field">
+            <label for="livraison_postalcode">Code postal</label>
+            <input type="text" name="livraison_postalcode" id="livraison_postalcode">
+        </div>
+
+        <div class="field">
+            <input routerLink="/paiement" class="button button-black" type="submit" value="Passer au paiement">
+        </div>
+    </form>
+
+</div>
+
+

@@ -1,0 +1,30 @@
+.card-list a{
+    display: inline-block;
+    color:#000;
+}
+.card{
+    transition:0.3s;
+}
+.card:hover{
+    transform:scale(1.1) rotate(3deg);
+    box-shadow:7px 7px 3px #acacac;
+    border:3px solid #000;
+}
+
+.card:hover>.card-title{
+    background-color: #EFEFEF!important;
+}
+
+
+.card-title{
+    width:100%;
+}
+
+.card-title>p{
+    font-family:"Source Sans Pro", sans-serif;
+    font-weight:bold;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}

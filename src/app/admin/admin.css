@@ -1,0 +1,41 @@
+.list-commande-produit{
+    margin: 20px 0;
+    padding:0;
+}
+
+.list-commande-produit>p{
+    font-family:"Source Sans Pro",sans-serif;
+    font-weight:bold;
+    font-size:23px;
+}
+
+.list-commande-produit>li{
+    width:100%;
+    height:55px;
+    background-color: #EEEEEE;
+    transition:0.2s;
+    position:relative;
+    list-style:none;
+    cursor:pointer;
+}
+
+.list-commande-produit>li:hover{
+    background-color: #CDCDCD;
+}
+.list-commande-produit>li>p{
+    font-family:"Source Sans Pro", sans-serif;
+    font-size:16px;
+}
+.list-commande-produit>li>p:first-child{
+    position:absolute;
+    left:25px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.list-commande-produit>li>p:last-child{
+    position:absolute;
+    right:25px;
+    top:50%;
+    transform:translateY(-50%);
+}

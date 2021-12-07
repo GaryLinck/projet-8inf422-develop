@@ -1,0 +1,50 @@
+.container{
+    min-height:500px;
+}
+.main-title{
+    text-align:center;
+    position: relative;
+}
+.main-title>a{
+    position:absolute;left:0;
+    color:#0079AD;
+    font-size:16px;
+    top:50%;
+    transform:translateY(-50%);
+    text-decoration: none;
+    transition:0.5s;
+}
+
+.main-title>a>svg{
+    height: 25px;
+    width: 25px;
+    transform:translateY(-1px);
+}
+.main-title>a:hover{
+    padding-left:10px;
+}
+
+img{
+    width:245px;
+    height: 220px;
+    border:3px solid #bdbdbd;
+    float:left;
+    margin-right:20px;
+}
+
+.button-right{
+    float:right;
+    margin: 0;
+    padding:0;
+}
+.button-right>li{
+    width:100%;
+    position:relative;
+    height:50px;
+    list-style:none;
+    text-align:right;
+}
+.button-right li>button{
+    left:0;
+    transform:none;
+}
